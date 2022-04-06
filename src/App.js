@@ -1,5 +1,6 @@
-import {Component} from 'react';
+import {Component, createRef} from 'react';
 import Iframe from 'react-iframe';
+import ReactDOM from 'react-dom';
 import axios from 'axios';
 import queryString from 'querystring';
 import io from 'socket.io-client';
@@ -22,57 +23,60 @@ function Buttons() {
   const [modalContent, setModalContent] = useState(null);
   const [open, setOpen] = useState(false);
   const handleClose = () => setOpen(false);
-  // const konnectContent = <Iframe width="100%" height="300px" src="https://wxsd-sales.github.io/wxpdemo/public/guest.html?destination=kiosk.wxsd%40webex.com&token=ZTE2ZmE2ZjctZWJiNi00NTI0LWJlOGEtNmNjYjI4MzIyMTg3NzJmNzY0NTUtNGU3_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f&showSMS=true" />
-  const kafeContent = <Iframe  src="https://orderlina.menu/marcelas" style="border:0px #FFFFFF none" name="Menu" frameborder="0" marginheight="0px" marginwidth="0px" height="750px" width="100%" allowfullscreen scrolling="auto"/>
+  const kafeContent = <Iframe  src="https://orderlina.menu/marcelas" style="border:0px #FFFFFF none" name="Menu" frameborder="0" marginheight="0px" marginwidth="0px" height="600px" width="100%" allowfullscreen scrolling="auto"/>
   const tvContent = <Iframe width="100%" height="400px" src="https://www.youtube.com/embed/vRPmIFl52nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
   const konnectContent = <KaleidaKonnect />
 
-  return <div>
-    <div className='buttons'>
-      <Button
-        size="large"
-        onClick={()=> {setModalContent(konnectContent); setOpen(true);}} 
-        startIcon={<Avatar 
-          sx={{ height: '7rem', width: '7rem' }}
-          src={Konnect} />}
-      />
-      <Button
-      size="large"
-      onClick={()=>{setModalContent(kafeContent); setOpen(true);}} 
-      startIcon={<Avatar 
-        sx={{ height: '7rem', width: '7rem' }}
-        src={Kafe} />}
-      />
-      <Button
-        size="large"
-        onClick={()=> {setModalContent(tvContent); setOpen(true);}} 
-        startIcon={<Avatar 
-          sx={{ height: '7rem', width: '7rem' }}
-          src={TV} />}
-      />
-    </div>
-    <div className="clinicianButton">
+  return <>
+      <div className='bottom'>
+        <div className='buttons'>
+          <Button
+            size="large"
+            onClick={()=> {setModalContent(konnectContent); setOpen(true);}} 
+            startIcon={<Avatar 
+              sx={{ height: '7rem', width: '7rem' }}
+              src={Konnect} />}
+          />
+          <Button
+          size="large"
+          onClick={()=>{setModalContent(kafeContent); setOpen(true);}} 
+          startIcon={<Avatar 
+            sx={{ height: '7rem', width: '7rem' }}
+            src={Kafe} />}
+          />
+          <Button
+            size="large"
+            onClick={()=> {setModalContent(tvContent); setOpen(true);}} 
+            startIcon={<Avatar 
+              sx={{ height: '7rem', width: '7rem' }}
+              src={TV} />}
+          />
+        </div>
+        <Modal open={open} close={handleClose} >
+          {modalContent}
+        </Modal>
+      </div>
+      <div className="clinicianButton">
         <Button
           onClick={() => {setModalContent(<PresenceDemo />); setOpen(true)}} 
           size="large"
+          className="clinicianButton"
           startIcon={<Avatar 
             sx={{ height: '4rem', width: '4rem' }}
             src={Clinician} />}
         />
-    </div>
-    <Modal open={open} close={handleClose} >
-      {modalContent}
-    </Modal>
-  </div>
+      </div>
+  </>
 };
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      displayAuthPrompt: false
+      displayAuthPrompt: false,
     }
   }
+
   async componentDidMount()  {
     const code = new URLSearchParams(window.location.search).get("code");
     const urlState = new URLSearchParams(window.location.search).get("state");
@@ -96,6 +100,7 @@ class App extends Component {
       data.state = urlState;
       socket.emit('token', data);
     }
+
   }
 
   render() {
@@ -107,12 +112,15 @@ class App extends Component {
     return <div>
       {this.state.displayAuthPrompt ? authSuccessful :
       <>
-        <Iframe
-          url="https://www.kaleidahealth.org"
+        <iframe
+          style={{
+            height: '100%',
+            position: 'absolute'
+          }}
+          src="https://www.kaleidahealth.org"
           width="100%"
-          height="945px"
-          id="id"
-        />
+          title="kaleida"
+        ></iframe>
         <Buttons /> 
       </>
       }
