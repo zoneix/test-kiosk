@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kaleida/static/css/main.64ddabaa.css",
-    "main.js": "/Kaleida/static/js/main.ac241769.js",
+    "main.js": "/Kaleida/static/js/main.d0efe6c1.js",
     "static/media/roboto-all-500-normal.woff": "/Kaleida/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/Kaleida/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/Kaleida/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
@@ -40,10 +40,10 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/Kaleida/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/Kaleida/index.html",
     "main.64ddabaa.css.map": "/Kaleida/static/css/main.64ddabaa.css.map",
-    "main.ac241769.js.map": "/Kaleida/static/js/main.ac241769.js.map"
+    "main.d0efe6c1.js.map": "/Kaleida/static/js/main.d0efe6c1.js.map"
   },
   "entrypoints": [
     "static/css/main.64ddabaa.css",
-    "static/js/main.ac241769.js"
+    "static/js/main.d0efe6c1.js"
   ]
 }
