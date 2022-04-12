@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kaleida/static/css/main.27500651.css",
-    "main.js": "/Kaleida/static/js/main.a0b31102.js",
+    "main.css": "/Kaleida/static/css/main.c97d6ac8.css",
+    "main.js": "/Kaleida/static/js/main.3891e169.js",
     "reactPlayerYouTube.js": "/Kaleida/static/js/reactPlayerYouTube.5ecff00e.chunk.js",
     "reactPlayerSoundCloud.js": "/Kaleida/static/js/reactPlayerSoundCloud.5da03e2f.chunk.js",
     "reactPlayerVimeo.js": "/Kaleida/static/js/reactPlayerVimeo.4b013198.chunk.js",
@@ -54,8 +54,8 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/Kaleida/static/media/roboto-greek-ext-300-normal.04e05839d6a35e046c13.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/Kaleida/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/Kaleida/index.html",
-    "main.27500651.css.map": "/Kaleida/static/css/main.27500651.css.map",
-    "main.a0b31102.js.map": "/Kaleida/static/js/main.a0b31102.js.map",
+    "main.c97d6ac8.css.map": "/Kaleida/static/css/main.c97d6ac8.css.map",
+    "main.3891e169.js.map": "/Kaleida/static/js/main.3891e169.js.map",
     "reactPlayerYouTube.5ecff00e.chunk.js.map": "/Kaleida/static/js/reactPlayerYouTube.5ecff00e.chunk.js.map",
     "reactPlayerSoundCloud.5da03e2f.chunk.js.map": "/Kaleida/static/js/reactPlayerSoundCloud.5da03e2f.chunk.js.map",
     "reactPlayerVimeo.4b013198.chunk.js.map": "/Kaleida/static/js/reactPlayerVimeo.4b013198.chunk.js.map",
@@ -71,7 +71,7 @@
     "reactPlayerPreview.63d75714.chunk.js.map": "/Kaleida/static/js/reactPlayerPreview.63d75714.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27500651.css",
-    "static/js/main.a0b31102.js"
+    "static/css/main.c97d6ac8.css",
+    "static/js/main.3891e169.js"
   ]
 }
