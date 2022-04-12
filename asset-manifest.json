@@ -1,7 +1,22 @@
 {
   "files": {
-    "main.css": "/Kaleida/static/css/main.64ddabaa.css",
-    "main.js": "/Kaleida/static/js/main.d0efe6c1.js",
+    "main.css": "/Kaleida/static/css/main.c97d6ac8.css",
+    "main.js": "/Kaleida/static/js/main.3891e169.js",
+    "reactPlayerYouTube.js": "/Kaleida/static/js/reactPlayerYouTube.5ecff00e.chunk.js",
+    "reactPlayerSoundCloud.js": "/Kaleida/static/js/reactPlayerSoundCloud.5da03e2f.chunk.js",
+    "reactPlayerVimeo.js": "/Kaleida/static/js/reactPlayerVimeo.4b013198.chunk.js",
+    "reactPlayerFacebook.js": "/Kaleida/static/js/reactPlayerFacebook.d7291435.chunk.js",
+    "reactPlayerStreamable.js": "/Kaleida/static/js/reactPlayerStreamable.b4b075a3.chunk.js",
+    "reactPlayerWistia.js": "/Kaleida/static/js/reactPlayerWistia.78a359be.chunk.js",
+    "reactPlayerTwitch.js": "/Kaleida/static/js/reactPlayerTwitch.eacb857d.chunk.js",
+    "reactPlayerDailyMotion.js": "/Kaleida/static/js/reactPlayerDailyMotion.91c050b4.chunk.js",
+    "reactPlayerMixcloud.js": "/Kaleida/static/js/reactPlayerMixcloud.d855612d.chunk.js",
+    "reactPlayerVidyard.js": "/Kaleida/static/js/reactPlayerVidyard.7c6a3745.chunk.js",
+    "reactPlayerKaltura.js": "/Kaleida/static/js/reactPlayerKaltura.82b28389.chunk.js",
+    "reactPlayerFilePlayer.js": "/Kaleida/static/js/reactPlayerFilePlayer.a84c081a.chunk.js",
+    "reactPlayerPreview.js": "/Kaleida/static/js/reactPlayerPreview.63d75714.chunk.js",
+    "static/media/kaleida-video.mp4": "/Kaleida/static/media/kaleida-video.2bc88ee233a70dda6af2.mp4",
+    "static/media/kaleida-home-page.png": "/Kaleida/static/media/kaleida-home-page.ba0f6b87845f2b19429d.png",
     "static/media/roboto-all-500-normal.woff": "/Kaleida/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/Kaleida/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/Kaleida/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
@@ -39,11 +54,24 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/Kaleida/static/media/roboto-greek-ext-300-normal.04e05839d6a35e046c13.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/Kaleida/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/Kaleida/index.html",
-    "main.64ddabaa.css.map": "/Kaleida/static/css/main.64ddabaa.css.map",
-    "main.d0efe6c1.js.map": "/Kaleida/static/js/main.d0efe6c1.js.map"
+    "main.c97d6ac8.css.map": "/Kaleida/static/css/main.c97d6ac8.css.map",
+    "main.3891e169.js.map": "/Kaleida/static/js/main.3891e169.js.map",
+    "reactPlayerYouTube.5ecff00e.chunk.js.map": "/Kaleida/static/js/reactPlayerYouTube.5ecff00e.chunk.js.map",
+    "reactPlayerSoundCloud.5da03e2f.chunk.js.map": "/Kaleida/static/js/reactPlayerSoundCloud.5da03e2f.chunk.js.map",
+    "reactPlayerVimeo.4b013198.chunk.js.map": "/Kaleida/static/js/reactPlayerVimeo.4b013198.chunk.js.map",
+    "reactPlayerFacebook.d7291435.chunk.js.map": "/Kaleida/static/js/reactPlayerFacebook.d7291435.chunk.js.map",
+    "reactPlayerStreamable.b4b075a3.chunk.js.map": "/Kaleida/static/js/reactPlayerStreamable.b4b075a3.chunk.js.map",
+    "reactPlayerWistia.78a359be.chunk.js.map": "/Kaleida/static/js/reactPlayerWistia.78a359be.chunk.js.map",
+    "reactPlayerTwitch.eacb857d.chunk.js.map": "/Kaleida/static/js/reactPlayerTwitch.eacb857d.chunk.js.map",
+    "reactPlayerDailyMotion.91c050b4.chunk.js.map": "/Kaleida/static/js/reactPlayerDailyMotion.91c050b4.chunk.js.map",
+    "reactPlayerMixcloud.d855612d.chunk.js.map": "/Kaleida/static/js/reactPlayerMixcloud.d855612d.chunk.js.map",
+    "reactPlayerVidyard.7c6a3745.chunk.js.map": "/Kaleida/static/js/reactPlayerVidyard.7c6a3745.chunk.js.map",
+    "reactPlayerKaltura.82b28389.chunk.js.map": "/Kaleida/static/js/reactPlayerKaltura.82b28389.chunk.js.map",
+    "reactPlayerFilePlayer.a84c081a.chunk.js.map": "/Kaleida/static/js/reactPlayerFilePlayer.a84c081a.chunk.js.map",
+    "reactPlayerPreview.63d75714.chunk.js.map": "/Kaleida/static/js/reactPlayerPreview.63d75714.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64ddabaa.css",
-    "static/js/main.d0efe6c1.js"
+    "static/css/main.c97d6ac8.css",
+    "static/js/main.3891e169.js"
   ]
 }
