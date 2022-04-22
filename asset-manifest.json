@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kaleida/static/css/main.2f04250d.css",
+    "main.css": "/Kaleida/static/css/main.dc87e039.css",
     "main.js": "/Kaleida/static/js/main.9dc7a541.js",
     "reactPlayerYouTube.js": "/Kaleida/static/js/reactPlayerYouTube.5ecff00e.chunk.js",
     "reactPlayerSoundCloud.js": "/Kaleida/static/js/reactPlayerSoundCloud.5da03e2f.chunk.js",
@@ -54,7 +54,7 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/Kaleida/static/media/roboto-greek-ext-300-normal.04e05839d6a35e046c13.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/Kaleida/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/Kaleida/index.html",
-    "main.2f04250d.css.map": "/Kaleida/static/css/main.2f04250d.css.map",
+    "main.dc87e039.css.map": "/Kaleida/static/css/main.dc87e039.css.map",
     "main.9dc7a541.js.map": "/Kaleida/static/js/main.9dc7a541.js.map",
     "reactPlayerYouTube.5ecff00e.chunk.js.map": "/Kaleida/static/js/reactPlayerYouTube.5ecff00e.chunk.js.map",
     "reactPlayerSoundCloud.5da03e2f.chunk.js.map": "/Kaleida/static/js/reactPlayerSoundCloud.5da03e2f.chunk.js.map",
@@ -71,7 +71,7 @@
     "reactPlayerPreview.63d75714.chunk.js.map": "/Kaleida/static/js/reactPlayerPreview.63d75714.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f04250d.css",
+    "static/css/main.dc87e039.css",
     "static/js/main.9dc7a541.js"
   ]
 }
