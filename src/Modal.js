@@ -6,12 +6,12 @@ import Fade from '@mui/material/Fade';
 
 
 
-export default function TransitionsModal({children, open, close, width="400px"}) {
+export default function TransitionsModal({children, open, close, width="400px", top='50%', left='50%'}) {
 
   const style = {
     position: 'absolute',
-    top: '50%',
-    left: '50%',
+    top: top,
+    left: left,
     transform: 'translate(-50%, -50%)',
     width: width,
     bgcolor: 'background.paper',

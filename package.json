@@ -1,6 +1,6 @@
 {
-  "name": "kaleida",
-  "homepage": "https://wxsd-sales.github.io/Kaleida",
+  "name": "test-kiosk",
+  "homepage": "https://zoneix.github.io/test-kiosk",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

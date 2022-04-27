@@ -11,10 +11,10 @@ import Kafe from './assests/Kafe.png';
 import TV from './assests/TV.png';
 import Clinician from './assests/Clinician.png';
 import Modal from './Modal';
-import KaleidaKonnect from './KaleidaKoonect';
-import PresenceDemo from './PresenceDemo';
-import kaleida from './assests/kaleida-home-page.png';
-import KaleidaTV from './KaleidaTV';
+import FamilyConnect from './KaleidaKoonect';
+import SecureApp from './PresenceDemo';
+import ClientBackground from './assests/hca-kiosk-back.png';
+import Entertainment from './HCATV';
 import { client_id, client_secret, auth_url, server_url, redirect_uri } from './PresenceDemo/constants';
 
 
@@ -27,8 +27,8 @@ function Buttons() {
   const [open, setOpen] = useState(false);
   const handleClose = () => {setOpen(false); setShowTV(false);};
   const kafeContent = <Iframe  src="https://orderlina.menu/marcelas" style="border:0px #FFFFFF none" name="Menu" frameborder="0" marginheight="0px" marginwidth="0px" height="600px" width="100%" allowfullscreen scrolling="auto"/>
-  const tvContent = <KaleidaTV />
-  const konnectContent = <KaleidaKonnect />
+  const tvContent = <Entertainment />
+  const konnectContent = <FamilyConnect />
 
   return <>
       <div className='bottom'>
@@ -41,7 +41,7 @@ function Buttons() {
                 sx={{ height: '7rem', width: '7rem' }}
                 src={Konnect} />}
             />
-            <Typography>Kaleida Konnect</Typography>
+            <Typography>Family Connect</Typography>
           </div>
           <div className="button">
             <Button
@@ -51,7 +51,7 @@ function Buttons() {
               sx={{ height: '7rem', width: '7rem' }}
               src={Kafe} />}
             />
-            <Typography>Kaleida Kafe</Typography>
+            <Typography>HCA Cafe</Typography>
           </div>
           <div className="button">
             <Button
@@ -61,16 +61,16 @@ function Buttons() {
                 sx={{ height: '7rem', width: '7rem' }}
                 src={TV} />}
             />
-            <Typography>Kaleida TV</Typography>
+            <Typography>HCA TV</Typography>
           </div>
         </div>
-        <Modal open={open} close={handleClose} width={showTV ? "40rem" : undefined}>
+        <Modal open={open} close={handleClose} width={showTV ? "40rem" : undefined} >
           {modalContent}
         </Modal>
       </div>
       <div className="clinicianButton">
         <Button
-          onClick={() => {setModalContent(<PresenceDemo openModal={setOpen}/>); setOpen(true)}} 
+          onClick={() => {setModalContent(<SecureApp openModal={setOpen}/>); setOpen(true)}} 
           size="large"
           className="clinicianButton"
           startIcon={<Avatar 
@@ -137,7 +137,7 @@ class App extends Component {
 
     const app = this.state.displayAuthPrompt ? authSuccessful :
       <>
-        <img src={kaleida} alt="kaleida"/>
+        <img src={ClientBackground} alt="HCA"/>
         <Buttons /> 
       </>;
 
