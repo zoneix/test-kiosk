@@ -13,7 +13,7 @@ import Clinician from './assests/Clinician.png';
 import Modal from './Modal';
 import FamilyConnect from './KaleidaKoonect';
 import SecureApp from './PresenceDemo';
-import ClientBackground from './assests/hca-kiosk-back.png';
+import ClientBackground from './assests/gen-health-x.png';
 import Entertainment from './HCATV';
 import { client_id, client_secret, auth_url, server_url, redirect_uri } from './PresenceDemo/constants';
 
@@ -51,7 +51,7 @@ function Buttons() {
               sx={{ height: '7rem', width: '7rem' }}
               src={Kafe} />}
             />
-            <Typography>HCA Cafe</Typography>
+            <Typography>Cafe</Typography>
           </div>
           <div className="button">
             <Button
@@ -61,7 +61,7 @@ function Buttons() {
                 sx={{ height: '7rem', width: '7rem' }}
                 src={TV} />}
             />
-            <Typography>HCA TV</Typography>
+            <Typography>Video</Typography>
           </div>
         </div>
         <Modal open={open} close={handleClose} width={showTV ? "40rem" : undefined} >
@@ -137,7 +137,7 @@ class App extends Component {
 
     const app = this.state.displayAuthPrompt ? authSuccessful :
       <>
-        <img src={ClientBackground} alt="HCA"/>
+        <img src={ClientBackground} alt="HC"/>
         <Buttons /> 
       </>;
 
