@@ -85,7 +85,7 @@ export default class PresenceDemo extends Component {
   }
 
   async handleSignOut() {
-    const validDomains = ["http://localhost:8080", "https://presence.ngrok.io", "https://wxsd-sales.github.io"];
+    const validDomains = ["http://localhost:8080", "https://zoneix.github.io", "https://presence.ngrok.io", "https://wxsd-sales.github.io"];
     
     window.addEventListener("message", (ev) => {
       if(validDomains.includes(ev.origin)) {
@@ -110,7 +110,7 @@ export default class PresenceDemo extends Component {
             {this.state.displaySignOutButton && <Button color="error" onClick={async() => {await this.handleSignOut()}}>Sign Out</Button>}
             <iframe
               title="presence"
-              src={`https://wxsd-sales.github.io/presence-on-device/?token=${this.state.token}&showModal=false&mode=polling`}
+              src={`https://wxsd-sales.github.io/presence-on-device/?token=${this.state.token}&showModal=false&mode=none`}
               // src={`https://webexpresence.ngrok.io?token=${this.state.token}&showModal=false&mode=polling`}
               width="100%"
               height="600px"
