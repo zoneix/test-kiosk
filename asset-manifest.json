@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test-kiosk/static/css/main.d92f1bfd.css",
-    "main.js": "/test-kiosk/static/js/main.739adb7e.js",
+    "main.css": "/test-kiosk/static/css/main.eb9ad61d.css",
+    "main.js": "/test-kiosk/static/js/main.e3dede5e.js",
     "reactPlayerYouTube.js": "/test-kiosk/static/js/reactPlayerYouTube.17adb682.chunk.js",
     "reactPlayerSoundCloud.js": "/test-kiosk/static/js/reactPlayerSoundCloud.650a6ce3.chunk.js",
     "reactPlayerVimeo.js": "/test-kiosk/static/js/reactPlayerVimeo.827a7784.chunk.js",
@@ -16,12 +16,11 @@
     "reactPlayerFilePlayer.js": "/test-kiosk/static/js/reactPlayerFilePlayer.f6dc70f4.chunk.js",
     "reactPlayerPreview.js": "/test-kiosk/static/js/reactPlayerPreview.a70de480.chunk.js",
     "static/media/hca.mp4": "/test-kiosk/static/media/hca.3d22a28b8725fb51a14a.mp4",
-    "static/media/gen-health-x.png": "/test-kiosk/static/media/gen-health-x.e36ec7a8a3c97e3a030a.png",
+    "static/media/hca-bkg2.png": "/test-kiosk/static/media/hca-bkg2.fc6486d356c5b85759fe.png",
     "static/media/roboto-all-500-normal.woff": "/test-kiosk/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/test-kiosk/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
     "static/media/roboto-all-400-normal.woff": "/test-kiosk/static/media/roboto-all-400-normal.376ea5d93f71583052f6.woff",
     "static/media/roboto-all-300-normal.woff": "/test-kiosk/static/media/roboto-all-300-normal.8fc5f5f22c9951113696.woff",
-    "static/media/Clinician.png": "/test-kiosk/static/media/Clinician.10b08ab9d0f9c78370a9.png",
     "static/media/Kafe.png": "/test-kiosk/static/media/Kafe.8080ff8840b4a88852dd.png",
     "static/media/TV.png": "/test-kiosk/static/media/TV.88dc8adeaaf2316ba715.png",
     "static/media/Konnect.png": "/test-kiosk/static/media/Konnect.29e40725275b4d316ba8.png",
@@ -54,8 +53,8 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/test-kiosk/static/media/roboto-greek-ext-300-normal.04e05839d6a35e046c13.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/test-kiosk/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
     "index.html": "/test-kiosk/index.html",
-    "main.d92f1bfd.css.map": "/test-kiosk/static/css/main.d92f1bfd.css.map",
-    "main.739adb7e.js.map": "/test-kiosk/static/js/main.739adb7e.js.map",
+    "main.eb9ad61d.css.map": "/test-kiosk/static/css/main.eb9ad61d.css.map",
+    "main.e3dede5e.js.map": "/test-kiosk/static/js/main.e3dede5e.js.map",
     "reactPlayerYouTube.17adb682.chunk.js.map": "/test-kiosk/static/js/reactPlayerYouTube.17adb682.chunk.js.map",
     "reactPlayerSoundCloud.650a6ce3.chunk.js.map": "/test-kiosk/static/js/reactPlayerSoundCloud.650a6ce3.chunk.js.map",
     "reactPlayerVimeo.827a7784.chunk.js.map": "/test-kiosk/static/js/reactPlayerVimeo.827a7784.chunk.js.map",
@@ -71,7 +70,7 @@
     "reactPlayerPreview.a70de480.chunk.js.map": "/test-kiosk/static/js/reactPlayerPreview.a70de480.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d92f1bfd.css",
-    "static/js/main.739adb7e.js"
+    "static/css/main.eb9ad61d.css",
+    "static/js/main.e3dede5e.js"
   ]
 }
