@@ -9,11 +9,11 @@ import { Button, Avatar, Typography } from '@mui/material';
 import Konnect from './assests/Konnect.png';
 import Kafe from './assests/Kafe.png';
 import TV from './assests/TV.png';
-import Clinician from './assests/Clinician.png';
+import Clinician from './assests/hca120.png';
 import Modal from './Modal';
-import FamilyConnect from './KaleidaKoonect';
+import FamilyConnect from './FamilyConnect';
 import SecureApp from './PresenceDemo';
-import ClientBackground from './assests/gen-health-x.png';
+import ClientBackground from './assests/hca-bkg2.png';
 import Entertainment from './HCATV';
 import { client_id, client_secret, auth_url, server_url, redirect_uri } from './PresenceDemo/constants';
 
@@ -26,9 +26,9 @@ function Buttons() {
   const [showTV, setShowTV] = useState(false);
   const [open, setOpen] = useState(false);
   const handleClose = () => {setOpen(false); setShowTV(false);};
-  const kafeContent = <Iframe  src="https://orderlina.menu/marcelas" style="border:0px #FFFFFF none" name="Menu" frameborder="0" marginheight="0px" marginwidth="0px" height="600px" width="100%" allowfullscreen scrolling="auto"/>
-  const tvContent = <Entertainment />
-  const konnectContent = <FamilyConnect />
+  const kafeContent = <Iframe  src="https://orderlina.menu/marcelas" style="border:0px #FFFFFF none" name="Menu" frameborder="0" marginheight="0px" marginwidth="0px" height="600px" width="100%" allowfullscreen scrolling="auto"/>;
+  const tvContent = <Entertainment />;
+  const konnectContent = <FamilyConnect />;
 
   return <>
       <div className='bottom'>
@@ -41,7 +41,7 @@ function Buttons() {
                 sx={{ height: '7rem', width: '7rem' }}
                 src={Konnect} />}
             />
-            <Typography>Family Connect</Typography>
+            <Typography variant="h6">Family Connect</Typography>
           </div>
           <div className="button">
             <Button
@@ -51,7 +51,7 @@ function Buttons() {
               sx={{ height: '7rem', width: '7rem' }}
               src={Kafe} />}
             />
-            <Typography>Cafe</Typography>
+            <Typography variant="h6">Cafe</Typography>
           </div>
           <div className="button">
             <Button
@@ -61,7 +61,7 @@ function Buttons() {
                 sx={{ height: '7rem', width: '7rem' }}
                 src={TV} />}
             />
-            <Typography>Video</Typography>
+            <Typography variant="h6">Video</Typography>
           </div>
         </div>
         <Modal open={open} close={handleClose} width={showTV ? "40rem" : undefined} >
@@ -77,7 +77,7 @@ function Buttons() {
             sx={{ height: '4rem', width: '4rem' }}
             src={Clinician} />}
         />
-        <Typography>Clinician Only</Typography>
+        <Typography variant="h6">Clinician Only</Typography>
       </div>
   </>
 };

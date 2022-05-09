@@ -9,8 +9,9 @@ const AuthCode = ({loginState}) => {
   console.log(`${login_url}&state=${loginState}`);
 
   return <div className="authCode">
-    <Typography variant="h5">Login With Your Phone!</Typography>
-    <QRCode value={`${login_url}&state=${loginState}`} size={300}/>
+    <Typography variant="subtitle1" align="center">For HCA Clinician use only.</Typography>
+    <Typography variant="subtitle1" align="center">Please scan the QR code with your phone for access.</Typography>
+    <QRCode value={`${login_url}&state=${loginState}`} size={200}/>
   </div>
   
 }
